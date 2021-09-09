@@ -1,0 +1,588 @@
+/*-------------------------- Tipografía --------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&family=Open+Sans&family=Roboto:wght@400;700&display=swap');
+/*-------------------------- General --------------------------*/
+body{
+    margin: 0;
+}
+/*-------------------------- Header --------------------------*/
+header{
+    background-color:#fcc2da;
+    color: #717076;
+    font-family: 'Lato';
+    font-size: 22px;
+    font-weight: bold;
+}
+.icono-menu-hamburguesa{
+    display: none;
+}
+header ul{
+    padding: 40px 0px;
+    margin: auto;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+header a{
+    padding: 40px 0px;
+    text-decoration: none;
+    color:#717076;
+}
+header a:hover{
+    color:#009EFF;
+    cursor: pointer;
+    font-weight: bold;
+    border-bottom: 5px solid #009EFF;
+}
+/*-------------------------- Tipografía --------------------------*/
+h1,h2{
+    margin: 0;
+}
+/*---------------------- Seccion Inicial --------------------------*/
+#inicial{
+    background-color: white;
+    background-image: url('ASSETS/Grupo\ 932.png');
+    background-repeat: no-repeat;
+    background-position: 260% 50%;
+    height: 830px;
+}
+#inicial img{
+    content: url('ASSETS/Enmascarar grupo 98.png');
+    margin-left: 200px;
+    margin-top: 73px;
+}
+#contenido-seccion-inicial img{
+    margin-bottom: 50px;
+}
+#contenido-seccion-inicial{
+    font-family: 'Lato';
+    width: 40%;
+    padding: 73px 200px;
+    color: #717076;
+}
+/*-------------------------- Tipografía --------------------------*/
+#contenido-seccion-inicial h1{
+    font-size: 50px;
+    font-weight: 300;
+}
+#contenido-seccion-inicial h2{
+    font-size: 20px;
+    margin-top: 13px;
+    width: 95%;
+}
+#contenido-seccion-inicial input{
+    width: 45%;
+    font-family: 'Open Sans';
+    font-size: 26px;
+    border-radius: 30px;
+    padding: 16px 20px;
+    border: none;
+    background-color: #CBCACD;
+    opacity: 0.4;
+    color: #b2b2b2;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+#contenido-seccion-inicial button{
+    font-family: 'Open Sans';
+    font-size: 26px;
+    border-radius: 30px;
+    padding: 17px 52px;
+    border: none;
+    background-color: #2680EB;
+    color: white;
+    align-items: center;
+}
+#separador{
+    display: none;
+}
+/*---------------------- Seccion Informacion --------------------------*/
+#informacion{
+    background-color: #F9F4F4;
+    font-family: 'Lato';
+    font-size: 25px;
+    padding: 100px 0px 150px;
+}
+.contenido-seccion-informacion{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.contenido-seccion-informacion img{
+    max-width: 40%;
+    height: auto;
+}
+/*-------------------------- Tipografía --------------------------*/
+.contenido-seccion-informacion h1{
+    color: #393939;
+    font-family: 'Roboto';
+    font-size: 45px;
+}
+.contenido-seccion-informacion h2{
+    color: #333333;
+    margin: 0%;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 32px;
+    font-weight: lighter;
+}
+#informacion h3{
+    color: #636161;
+    font-weight:normal;
+    width: 80%;
+    display: inline-block;
+    line-height: 40px;
+    font-size:25px;
+    margin: 0px;
+}
+.contenido-seccion-informacion div{
+    width: 27%;
+}
+.separar-contenido-seccion-informacion{
+    margin-top: 120px;
+}
+#informacion-somos{
+    margin-left: 120px;
+}
+#informacion-hacemos{
+    margin-right: 150px;
+    text-align: right;
+}
+#detalle-informacion{
+    margin-left: 16%;
+    margin-top: 150px;
+}
+#detalle-informacion img{
+    margin-right: 50px;
+}
+/*---------------------- Seccion Instrucciones --------------------------*/
+#instrucciones{
+    font-family: 'Roboto';
+    font-size: 45px;
+    background-color: #EEC0CF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+    padding: 55px 0px 160px;
+}
+#instrucciones-informacion{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+#instruccion{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 83px;
+}
+/*-------------------------- Tipografía --------------------------*/
+#instruccion h1{
+    margin: 30px 0px;
+    font-family: 'Roboto';
+    font-size: 40px;
+    line-height: 28px;
+}
+#instruccion h2{
+    width: 90%;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: lighter;
+}
+#detalle-instrucciones{
+    margin-left: 16%;
+    margin-top: 70px;
+}
+#detalle-instrucciones img{
+    margin-right: 50px;
+}
+/*-------------------------- Tipografía --------------------------*/
+#detalle-instrucciones h3{
+    font-family: 'Lato';
+    color: #636161;
+    font-weight:normal;
+    width: 80%;
+    display: inline-block;
+    line-height: 40px;
+    font-size:25px;
+    margin: 0px;
+}
+/*---------------------- Seccion Hablemos --------------------------*/
+#hablemos{
+    padding-bottom: 145px;
+    background-color: white;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+/*-------------------------- Tipografía --------------------------*/
+#hablemos h1{
+    color: #333333;
+    margin-top: 106px;
+    font-family: 'Roboto';
+    font-size: 45px;
+    line-height: 26px;
+}
+#lista-hablemos ul{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    list-style-position:outside;
+    align-content: center;
+    margin-top: 48px;
+}
+#lista-hablemos li{
+    background: url('ASSETS/Trazado\ 649.png') no-repeat left top; 
+    width: 108%;
+    color: #012020 ;
+    font-family: 'Open Sans';
+    font-size: 23px;
+    margin-top: 25px;
+    padding-left: 19px;
+}
+#lista-hablemos li p{
+    margin: 0%;
+    margin-left: 20px;
+}
+/*---------------------- Seccion Contacto --------------------------*/
+#contacto{
+    background-color: #EEC0CF;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#contacto form{
+    width: 60%;
+}
+#contacto form div{
+    display: flex;
+    justify-content: space-between;
+}
+#contacto form input,#contacto form textarea{
+    width: 44%;
+    margin-top: 20px;
+    border: none;
+    font-family: 'Open Sans';
+    font-size: 25px;
+    padding: 15px 29px;
+}
+#checkbox-contacto{
+    width: 5% !important;
+}
+#check{
+    justify-content: center !important;
+    align-items: center;
+    margin-top: 50px;
+}
+#check label{
+    color: #6B6B6B;
+    padding-top: 13px;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    text-decoration: underline ;
+}
+#contacto button{
+    font-family: 'Open Sans';
+    font-size: 26px;
+    border-radius: 18px;
+    padding: 17px 30px;
+    margin: 54px auto 115px !important;
+    border: none;
+    background-color: #2680EB;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+/*-------------------------- Tipografía --------------------------*/
+#contacto h1{
+    margin-top: 100px;
+    color: #333333;
+    font-family: 'Roboto';
+    font-size: 45px;
+    line-height: 26px;
+}
+#contacto h2{
+    margin-top: 48px;
+    color: #6B6B6B;
+    font-family: 'Roboto';
+    font-size: 25px;
+    line-height: 26px;
+    font-weight: lighter;
+}
+/*---------------------- Footer --------------------------*/
+footer{
+    height: 96px;
+    background-color: white;
+}
+/*---------------------- Responsive --------------------------*/
+@media (max-width: 375px) {
+    /*---------------------- Header --------------------------*/
+    header{
+      display: none;
+    }
+    .icono-menu-hamburguesa{
+        border-radius: 100px;
+        padding: 10px;
+        background-color: white;
+        display: block;
+        position: fixed;
+        right:22px;
+        top: 22px;
+        box-shadow: 5px 10px 30px 2px rgba(0,0,0,0.33);
+    }
+    .icono-menu-hamburguesa img{
+        display: block;
+    }
+    /*---------------------- Seccion Inicial --------------------------*/
+    #inicial{
+        background-image: none;
+        height: auto;
+    }
+    #inicial img{
+        content: url('ASSETSMOBILE/Enmascarar grupo 99.png');
+        margin-top: 42px; 
+        margin-left: 42px;
+        margin-bottom: 17px;
+    }
+    #contenido-seccion-inicial{
+        background-color: #FCC2DA;
+        padding: 0px;
+        padding-top: 30px;
+        width: 100%;
+        text-align: center;
+    }
+    /*-------------------------- Tipografía --------------------------*/
+    #contenido-seccion-inicial h1{
+        font-size: 25px;
+        width: 80%;
+        margin: auto;
+    }
+    #contenido-seccion-inicial h2{
+        font-size: 16px;
+        width: 80%;
+        margin: 30px auto;
+        margin-bottom: 45px;
+    }
+    #contenido-seccion-inicial input{
+        width: 80%;
+        font-family: 'Lato';
+        font-size: 20px;
+        text-align: center;
+        opacity: 1;
+        background-color: white;
+        margin: auto;
+    }
+    #contenido-seccion-inicial button{
+        font-family: 'Lato';
+        font-size: 14px;
+        padding: 12px 25px;
+        margin-top: 17px ;
+        margin-bottom: 27px;
+    }
+    #separador{
+        display: block;
+        width: 100%;
+    }
+    /*---------------------- Seccion Informacion -------------------------*/
+    #informacion{
+        background-color: white;
+        padding: 0px;
+    }
+    /*-------------------------- Tipografía --------------------------*/
+    #informacion h3{
+        font-size: 16px;
+        width: 90%;
+        line-height: 26px;
+        margin-bottom: 83px;
+    }
+    .contenido-seccion-informacion{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+    .contenido-seccion-informacion img{
+        display: none;
+    }
+    /*-------------------------- Tipografía --------------------------*/
+    .contenido-seccion-informacion h1{
+        font-size: 30px;
+        margin-top: 40px;
+    }
+    .contenido-seccion-informacion div{
+        width: 85%;
+        text-align: center;
+    }
+    .separar-contenido-seccion-informacion{
+        margin-top: 0px;
+    }
+    #informacion-somos{
+        margin-left: 0px;
+        margin-bottom: 40px;
+    }
+    #informacion-hacemos{
+        margin-right: 0px;
+        text-align:center;
+    }
+    #detalle-informacion{
+        margin: 0;
+        text-align: center;
+    }
+    #detalle-informacion img{
+        content: url('ASSETSMOBILE/Trazado\ 643.png');
+        display: block;
+        margin: 45px auto 60px;
+    }
+    /*---------------------- Seccion Instrucciones -------------------------*/
+    #instrucciones{
+        font-size: 30px;
+        display: block;
+        padding: 30px 0px 80px;
+        text-align: center;
+    }
+    #instrucciones-informacion{
+        width: 100%;
+        display: block;
+    }
+    #instruccion{
+        width: 71%;
+        margin: 40px auto;
+    }
+    /*-------------------------- Tipografía --------------------------*/
+    #instruccion h1{
+        margin: 30px 0px;
+        font-family: 'Roboto';
+        font-size: 40px;
+        line-height: 28px;
+    }
+    #instruccion h2{
+        width: 90%;
+        text-align: center;
+        font-family: 'Open Sans';
+        font-size: 16px;
+        line-height: 28px;
+        font-weight: lighter;
+    }
+    #detalle-instrucciones{
+        margin: 0;
+    }
+    #detalle-instrucciones img{
+        content: url('ASSETSMOBILE/Trazado\ 655.png');
+        display: block;
+        margin: 45px auto 60px;
+    }
+    #detalle-instrucciones h3{
+        font-size: 18px;
+        width: 68%;
+        line-height: 26px;
+        margin-bottom: 0;
+    }
+    /*---------------------- Seccion Hablemos -------------------------*/
+    #hablemos{
+        background-color: white;
+        padding-bottom: 80px;
+        display: block;
+    }
+    /*-------------------------- Tipografía --------------------------*/
+    #hablemos h1{
+        color: #333333;
+        margin-top: 55px;
+        font-family: 'Roboto';
+        font-size: 30px;
+        line-height: 35px;
+        text-align: center;
+    }
+    #lista-hablemos ul{
+        width: 80%;
+        display: block;
+        padding: 0px;
+        margin: auto;
+        margin-top: 48px;
+    }
+    #lista-hablemos li{
+        background: url('ASSETSMOBILE/Trazado\ 663.png') no-repeat left top; 
+        width: 90%;
+        font-size: 16px;
+        line-height: 30PX;
+        margin-top: 15px;
+    }
+    #lista-hablemos li p{
+        margin-left: 0;
+    }
+    /*---------------------- Seccion Contacto -------------------------*/
+    #contacto{
+        background-color: #EEC0CF;
+        display: block;
+        padding: 0px 65px 40px;
+        text-align: center;
+    }
+    #contacto form{
+        width: 100%;
+    }
+    #contacto form div{
+        display: block;
+    }
+    #contacto form input,#contacto form textarea{
+        width: 97%;
+        margin-top: 20px;
+        border: none;
+        font-family: 'Open Sans';
+        font-size: 18px;
+        padding: 7px 8px;
+        padding-right: 0px;
+    }
+    #checkbox-contacto{
+        width: 5% !important;
+    }
+    #agrandar{
+        width: 97% !important;
+    }
+    #check{
+        justify-content: center !important;
+        align-items: center;
+        margin-top: 44px;
+    }
+    #check label{
+        color: #6B6B6B;
+        padding-top: 13px;
+        font-family: 'Open Sans';
+        font-size: 14px;
+        text-decoration: underline ;
+        margin-left: 20px;
+    }
+    #contacto button{
+        font-size: 14px;
+        border-radius: 18px;
+        padding: 17px 30px;
+        margin: 73px auto 0px !important;
+    }
+    /*-------------------------- Tipografía --------------------------*/
+    #contacto h1{
+        margin: 0;
+        color: #333333;
+        font-family: 'Roboto';
+        font-size: 30px;
+        line-height: 26px;
+        padding: 65px 0px 0px;
+    }
+    #contacto h2{
+        margin-top: 48px;
+        color: #6B6B6B;
+        font-family: 'Open Sans';
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: lighter;
+    }
+    /*---------------------- Footer -------------------------*/
+    footer{
+        display: none;
+    }
+  }
